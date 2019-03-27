@@ -43,7 +43,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/riancoin-service/
 	HiddenServicePort 2333 127.0.0.1:2333
-	HiddenServicePort 19335 127.0.0.1:19335
+	HiddenServicePort 20331 127.0.0.1:20331
 
 The directory can be different of course, but (both) port numbers should be equal to
 your riancoind's P2P listen port (2333 by default).
